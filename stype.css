@@ -8,6 +8,12 @@
     justify-content: space-between;
     align-items: center;
     height: 48px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .header-list {
@@ -29,6 +35,9 @@
     width: 48px;
     height: 48px;
     margin-right: 24px;
+}
+.main {
+    margin-top: 48px;
 }
 .slider {
     width: 100%;
@@ -55,7 +64,7 @@
     font-weight: 600;
 }
 .the-band {
-    width: 650px;
+    width: 750px;
     margin: 0 auto;
     
 }
@@ -95,6 +104,7 @@ margin-bottom: 12px;
     background-color: rgb(255, 200, 0);
     padding-top: 8px;
     margin-top: 48px;
+    padding-bottom: 48px;
 
 }
 .tour-heading {
@@ -130,7 +140,7 @@ margin-bottom: 12px;
 
 }
 .tour-container {
-    width: 650px;
+    width: 750px;
     margin: 0 auto;
 }
 .tour-ticket-list {
@@ -153,4 +163,67 @@ margin-bottom: 12px;
     margin-top: 8px;
     margin-bottom: 8px;
     opacity: 0.5;
+}
+.contact {
+    width: 750px;
+    margin: 0 auto;
+}
+.contact-heading {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 48px;
+}
+.contact-sub-heading {
+    text-align: center;
+    font-style: italic;
+    opacity: 0.5;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+.contact-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-content-item {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.contact-content-item i {
+    margin-right: 8px;
+}
+.contact-group {
+    display: flex;
+}
+.contact-message {
+    width: 100%;
+    margin-top: 4px;
+}
+.contact-form button {
+    border: 0;
+    cursor: pointer;
+    background-color: yellow;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.map {
+    margin-top: 48px;
+}
+.map img {
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    margin: 48px 0;
+}
+.footer-social a {
+margin-right: 16px;
+font-size: 18px;
+text-decoration: none;
+color: #000;
 }

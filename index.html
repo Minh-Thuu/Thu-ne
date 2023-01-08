@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>The band</title>
     <link rel="stylesheet" href="./stype.css">
 </head>
@@ -11,10 +12,10 @@
     <div class="header">
         <ul class="header-list">
         <li><a href="#">home</a></li>
-        <li><a href="#">band</a></li>
-        <li><a href="#">tour</a></li>
-        <li><a href="#">contact</a></li>
-        <li><a href="#">more</a></li>
+        <li><a href="#the-band">band</a></li>
+        <li><a href="#tour">tour</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#map">map</a></li>
     </ul>
     
         <div class="header-search">
@@ -30,7 +31,7 @@
             <div><p class="slider-heading">Chicago</p>
             <p>Thank you, chicago -  A nigh we won't forget</p></div>
         </div>
-        <div class="the-band">
+        <div id="the-band" class="the-band">
             <!-- sau dấu lớn và dấu bé, ghi chữ -->
             <h3 class="the-band-heading">The band</h3>
             <p class="the-band-sub-heading">We love music</p>
@@ -49,7 +50,7 @@
                 </li>
             </ul>
         </div>
-        <div class="tour">
+        <div id="tour" class="tour">
             <div class="tour-container">
                 <h3 class="tour-heading">Tour Date</h3>
             <p class="tour-sub-heading">Remember to book your ticket</p>
@@ -100,10 +101,55 @@
             </div>
             
         </div>
-        <div class="contact"></div>
-        <div class="map"></div>
+        <div id="contact" class="contact">
+            <h3 class="contact-heading">Contact</h3>
+            <p class="contact-sub-heading">Fan? Drop a note!</p>
+            <div class="contact-bottom">
+                <div class="contact-content">
+                    <div class="contact-content-item">
+                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                        <p>Chicago, US</p>
+                    </div>
+                    <div class="contact-content-item">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p>Phone: <a href="#">+12102148</a></p>
+                    </div>
+                        <div class="contact-content-item">
+                            <i class="fa-solid fa-envelope"></i>
+                        <p>Email: <a href="#">ngocbangxanhlam152@gmail.com</a></p>
+                    </div>
+                </div>
+
+                <form action="" class="contact-form">
+                    <div class="contact-group">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="contact-group">
+                        
+                        <input class="contact-message" type="text" placeholder="Message">
+                    </div>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+
+
+
+        <div id="map" class="map">
+            <img src="https://scontent.fdad3-5.fna.fbcdn.net/v/t1.15752-9/256376713_1694440610765354_421281986523768124_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=6SnZNgp_g_gAX9PcZJD&_nc_ht=scontent.fdad3-5.fna&oh=03_AdRM3owvBPeots9AfX-0utXovmJcBlkE7jTaE5Ln7Ld13g&oe=63E226F0" alt="">
+        </div>
     </div>
     <div class="footer">
+<div class="footer-social">
+    <a href="https://www.facebook.com/minhthu152"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/minthu_.ltk/"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/mai-th%E1%BB%8B-minh-th%C6%B0-630328230/"><i class="fa-brands fa-linkedin"></i></a>
+    
+</div>
+<p>Powered by <span style="font-weight: 600;">Thư cute</span></p>
 
     </div>
 </body>
